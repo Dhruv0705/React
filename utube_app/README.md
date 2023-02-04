@@ -21,16 +21,23 @@ React file and structure
 Perfectly placed media queries for satisfactory responsiveness on all devices 
 Rapid API
 Youtube V3 Rapid API
-connect endpoints to 
-    suggested video , video details, channel details , channel videos  ect.
+connect endpoints to suggested video , video details, channel details , channel videos  ect.
 
 Fetch data from unlimited sources - Rapid Api
 
 
-Props | Hover Effect | React Styled Components
+Props | Hover Effect | React Styled Components 
 React Menu Design
 Dark Mode | Light Mode
 React Router Dom 6
-Video Card | Link | Commends React Component
-Navbar | Video Page | Login Page | React Design
+Video Card | Link | 
+Commends React 
+Component Navbar | Video Page | Login Page | React Design
+Video Detail
+Search
+Profile Page
+API Data Fetching
+Feed and Sidebar
+Navbar
+
 
