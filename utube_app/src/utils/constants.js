@@ -12,7 +12,7 @@ import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 
-export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
+export const logo = 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/79e4dc2e-13ac-4cd8-a7ca-a0f11b2fca6b/d7xypt7-9a93404c-8066-42dc-bcf5-6e579040c5b5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc5ZTRkYzJlLTEzYWMtNGNkOC1hN2NhLWEwZjExYjJmY2E2YlwvZDd4eXB0Ny05YTkzNDA0Yy04MDY2LTQyZGMtYmNmNS02ZTU3OTA0MGM1YjUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.nImFm-QxoZEF7-6alTrhWmrfEFJqHqAxJ8_SvpDi07g';
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },

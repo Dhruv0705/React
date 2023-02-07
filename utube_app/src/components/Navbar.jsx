@@ -17,7 +17,7 @@ const Navbar = () => (
       <img 
         src={logo} 
         alt="logo" 
-        height={45} 
+        height={50} 
       />
     </Link>
   <SearchBar/>
