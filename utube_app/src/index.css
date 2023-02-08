@@ -5,6 +5,23 @@ body {
   box-sizing: border-box;
 }
 
+.gradient-background{
+  background: linear-gradient(-109.6deg, rgb(20, 30, 48) 11.2%, rgb(0, 0, 0) 51.2%, rgb(0, 0, 0) 98.6%);
+  animation: gradient-background 105s ease infinite;
+}
+
+@keyframes gradient-background {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -43,6 +60,8 @@ a {
   border:none;
   outline:none;
   width:350px;
+  color: white;
+  background-color: transparent;
 }
 
 .category-btn{
@@ -61,6 +80,7 @@ a {
   border-radius: 20px;
   transition: all 0.3s ease;
 }
+
 
 @media screen and (max-width: 900px) {
   .category-btn{

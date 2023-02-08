@@ -1,10 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Box } from '@mui/material';
 import { ChannelDetail, VideoDetail, SearchFeed, Navbar, Feed } from './components';
+import './index.css';
 
 const App = () => (
   <BrowserRouter>
-    <Box sx={{ backgroundColor: '#000' }}>
+    <Box className='gradient-background'>
       <Navbar />
       <Routes>
         <Route exact path='/' element={<Feed />} />

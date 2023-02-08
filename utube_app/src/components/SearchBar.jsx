@@ -21,7 +21,7 @@ const SearchBar = () => {
     <Paper 
         component='form' 
         onSubmit={onHandleSubmit} 
-        sx={{ borderRadius: 20, border: '1px solid #e3e3e3', pl: 2, boxShadow: 'none', mr: { sm: 5 }, }}
+        sx={{ borderRadius: 20, border: '2px solid 	#585858', pl: 2, boxShadow: 'none', mr: { sm: 5 }, backgroundColor: 'transparent'}}
     >
         <input 
             className='search-bar' 
@@ -41,4 +41,4 @@ const SearchBar = () => {
   );
 };
 
-export default SearchBar;
+export default SearchBar; 
