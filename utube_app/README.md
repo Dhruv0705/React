@@ -1,3 +1,12 @@
+# UTube App
+### UTube App is a modern video sharing application built using React.js, Material UI, Node.js, and TypeScript. The app offers a seamless user experience with stunning video sections, custom categories, responsive channel and video cards, channel pages, and a video player.
+
+The app is designed with an emphasis on reusability and responsive design, using functional components and styled components for an attractive and intuitive user interface. It utilizes React Router for navigation, as well as hooks and functional components for added functionality.
+
+The app also integrates with the Rapid API and the Youtube V3 Rapid API, allowing it to fetch unlimited data from various sources. Features include video uploading, search, profile pages, comments, and a feed and sidebar. 
+
+
+
 React video sharing app UI design | Youtube UI clone with react and typescript
 
 Youtube clone application  using React.js, Material UI, Node.jS, 
