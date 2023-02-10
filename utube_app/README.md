@@ -5,7 +5,6 @@ The app is designed with an emphasis on reusability React based functional compo
 
 The app also integrates with the Rapid API and the Youtube V3 Rapid API, allowing it to fetch unlimited data from various sources. Features include video uploading, suggested video feed, video detail, channel detail , search, profile pages, comments, feed and sidebar. 
 
-
 Installation: 
 
 npx create-react-app utube_app
