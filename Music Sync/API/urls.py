@@ -1,8 +1,6 @@
 from django.urls import path
 from .views import RoomView, CreateRoomView, GetRoom, JoinRoom, UserInRoom, LeaveRoom, UpdateRoom
 
-app_name = 'api'
-
 urlpatterns = [
     path('room', RoomView.as_view()),
     path('create-room', CreateRoomView.as_view()),
