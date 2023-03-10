@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from rest_framework import generics, status
-from .serializers import RoomSerializer, CreateRoomSerializer, UpdateRoomSerializer
+from .serializer import RoomSerializer, CreateRoomSerializer, UpdateRoomSerializer
 from .models import Room
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -28,7 +28,7 @@ class GetRoom(APIView):
                 return Response(data, status=status.HTTP_200_OK)
             return Response({'Room Not Found': 'Invalid Room Code.'}, status=status.HTTP_404_NOT_FOUND)
 
-        return Response({'Bad Request': 'Code paramater not found in request'}, status=status.HTTP_400_BAD_REQUEST)
+        return Response({'Bad Request': 'Code parameter not found in request'}, status=status.HTTP_400_BAD_REQUEST)
 
 
 class JoinRoom(APIView):
