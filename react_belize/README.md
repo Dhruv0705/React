@@ -91,6 +91,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
         Histing Medical Resources
         Free legal council
         Transportation
+    - Location :
     - Transportation :
     - Events :
         Calendar of events (Religion & Cultural Drugs) 
@@ -99,4 +100,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - Donation : 
         Go FundMe
     - Mission Statement
-  - 
+    - Recourses: 
+      - Database
+      - Forms
+      - Links
+      - Contact Info   
