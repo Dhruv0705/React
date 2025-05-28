@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%); /* Slight gradient dark bg */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: clamp(1rem, 2vw, 1.5rem); /* responsive font size */
+  color: #e0e7ff; /* softer white */
+  padding: 2rem;
+  user-select: none; /* prevent accidental text selection */
+  overflow-x: hidden;
+}
+
+.App-logo {
+  height: 35vmin;
+  max-height: 200px;
+  pointer-events: none;
+  margin-bottom: 2rem;
+  filter: drop-shadow(0 0 10px #61dafb);
+  transition: filter 0.3s ease;
+}
+
+.App-logo:hover {
+  filter: drop-shadow(0 0 15px #21a1f1);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: spin-slow 30s linear infinite;
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.App-link:hover,
+.App-link:focus {
+  color: #21a1f1;
+  text-shadow: 0 0 10px #21a1f1;
+  outline: none;
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .App {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .App-logo {
+    height: 25vmin;
+    max-height: 150px;
+    margin-bottom: 1.5rem;
+  }
+}
